@@ -1,0 +1,53 @@
+{
+  "id": "febbbafa",
+  "name": "Indian User Data Tools",
+  "description": "Plugin to generete different types of random user data specific to Indian Users",
+  "author" : "Abhijit Chirde",
+  "helpUrl" : "https://twitter.com/abhichirde",
+  "host": [
+    {
+      "app": "XD",
+      "minVersion": "22.0.0"
+    }
+  ],
+  "version": "0.0.1",
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon@1x.png"
+    },
+    {
+      "width": 48,
+      "height": 48,
+      "path": "images/icon@2x.png"
+    },
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon@3x.png"
+    },    
+    {
+      "width": 144,
+      "height": 144,
+      "path": "images/icon@4x.png"
+    },    
+    {
+      "width": 192,
+      "height": 192,
+      "path": "images/icon@5x.png"
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "type" : "panel",
+      "label": "Show plugin tools",
+      "panelId" : "openPlugin"
+    },
+    {
+      "type": "menu",
+      "label": "About",
+      "commandId": "aboutPlugin"
+    }
+  ]
+}
